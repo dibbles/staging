@@ -2,5 +2,5 @@
 bases: 
   - ../base
 patches:
-  - staging-service.yaml
-  - staging-deployment.yaml
+  - dev-service.yaml
+  - dev-deployment.yaml
