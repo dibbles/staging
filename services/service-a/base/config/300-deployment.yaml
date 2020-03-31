@@ -13,6 +13,8 @@ spec:
     metadata:
       labels:
         app: nginx
+        newLabel1: createdInDev
+        newLabel2: secondLabelInDev
     spec:
       serviceAccountName: default-main-service-account
       containers:
